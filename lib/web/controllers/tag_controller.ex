@@ -13,4 +13,11 @@ defmodule Web.TagController do
     |> assign(:questions, questions)
     |> render("show.html")
   end
+
+  def index(conn,_) do
+
+    conn
+    |> render("index.html")
+  end
+
 end

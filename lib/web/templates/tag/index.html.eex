@@ -1,0 +1,5 @@
+<div class="bg-white shadow-md rounded p-8 mx-4 sm:mx-0">
+  <div class="flex items-center">
+    <p class="text-4xl flex-grow">Tags</p>
+  </div
+</div>

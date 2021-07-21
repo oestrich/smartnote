@@ -41,7 +41,7 @@ defmodule Web.Router do
 
     resources("/questions", QuestionController, except: [:index, :show])
 
-    resources("/tags", TagController, only: [:show])
+    resources("/tags", TagController, only: [:show, :index])
   end
 
   scope "/", Web do
